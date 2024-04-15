@@ -90,4 +90,3 @@ while True:
     if acao_user==3:
         print("Sessão encerrada")
         sys.exit()
-print("Sessão encerrada")
