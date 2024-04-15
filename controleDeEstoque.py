@@ -55,7 +55,7 @@ def cadastro():
     if cod_digitado!=cod_mestre:
         print("\nCódigo Invalido\n")
 
-while acao_user!=3:
+while True:
     acao_user=int(input("Selecione uma das opções abaixo:\nLogin/cadastro\n1--->cadastro\n2--->login\n3--->Sair\n-->"))
     if acao_user==1:
          cadastro()
